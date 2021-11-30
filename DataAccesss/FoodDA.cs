@@ -73,6 +73,7 @@ namespace DataAccesss
 			if (result > 0) // Nếu thành công thì trả về ID đã thêm
 				return (int)command.Parameters["@ID"].Value;
 			return 0;
+
 		}
 	}
 
